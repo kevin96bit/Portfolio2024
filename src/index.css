@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* =============== GOOGLE FONT POPPINS 400,500,600 =============== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* ================================= IMPORTO IL CSS DELLA DARK-MODE ================================= */
+
+/* css dark-mode */
+@import url('./dark_mode.css');
+
+/* ================================= IMPORTI CSS DI OGNI COMPONENTE ================================= */
+
+/* css delle section dove all'interno sono i componenti */
+@import url('./section.css');
+
+/* css di NavBar */
+@import url('./navbar.css');
+
+/* css di Home */
+@import url('./home.css');
+
+/* css di About */
+@import url('./about.css');
+
+/* css di Service */
+@import url('./service.css');
+
+/* css di Contact */
+@import url('./contact.css');
+
+
+
+/* ================================= IMPORTI RESPONSIVE ================================= */
+
+/* css max-width 350 */
+@import url('./mini_dispositivo.css');
+
+/* css max-width 576 */
+@import url('./piccolo_dispositivo.css');
+
+
+
+/* css max-width 768 */
+@import url('./responsive_iphone_piccolo.css');
+
+/* css max-width 932 */
+@import url('./responsive_iphone_pro_max.css');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

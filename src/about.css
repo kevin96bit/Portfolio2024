@@ -1,0 +1,113 @@
+/* =============== COMPONENTE ABOUT =============== */
+.about-container{
+    display: flex;
+   justify-content: center;
+   margin-right: 300px;
+   
+   /* border: 1px solid black; */
+  }
+  /* al suo interno è presente "about-scritta"  */
+  .presentazione{
+  margin-top: 1px;
+    /* display: flex; */
+    /* flex-direction: column; */
+  }
+  .about-scritta{
+    font-size: 120px;
+    color: aqua;
+  }
+  .dev{
+    color: lightgray;
+    text-align: center;
+    font-size: 40px;
+  
+  }
+  
+  /* simbolo delle graffe a fianco all'h4 */
+  .uil-brackets-curly{
+    color: aqua;
+  }
+  /* lettera "D" di developer nell'h4 */
+  .d{
+    font-size: 60px;
+  }
+  /* div trattato come immagine che rappresenta un dev */
+  .contenuto-about{
+    background:url(./dev.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 360px;
+    /* border: 1px solid black; */
+    /* margin-top: 10px; */
+    
+    
+  }
+  /* div che ha come figli "contenuto-about" e "scritte" */
+  .sotto-about{
+    display: flex;
+    justify-content: center;
+  }
+  /* div delle scritte a fianco all'immagine del dev */
+  .scritte{
+  margin-top: 5px;
+    /* border: 1px solid black;   */
+  width: 300px;
+  height: 170px;
+  padding-top: 30px;
+  }
+  /* elemento "p" a fianco all'immagine del dev */
+  .testo{
+    color: lightgray;
+    font-size: 25px;
+  }
+  /* icona della lampadina dentro il paragrafo (<p>) */
+  .uil-lightbulb-alt{
+    color: aqua;
+  }
+  
+  
+  /* container delle abilità */
+  .container-abilita{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+  
+  }
+  
+  .container-box{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .container-box-back{
+    padding-top:10px ;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .colore-livello-front,
+  .colore-livello-back{
+    color: aqua;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .abilita-front,
+  .abilita-back{
+    font-size: 30px;
+    color:lightgray;
+  }
+  
+  .frontend,
+  .backend{
+    border: 1px solid aqua;
+    width: 600px;
+    height: 250px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  

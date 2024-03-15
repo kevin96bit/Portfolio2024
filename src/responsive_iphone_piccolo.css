@@ -1,0 +1,368 @@
+/* IPHONE SE */
+@media screen and (min-width: 350) and (max-width: 884px) {
+  /* test */
+  html {
+    scroll-snap-type: initial;
+    /* overflow-x: hidden; */
+  }
+
+  section {
+    width: 100%;
+    height: 667px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  body {
+    background-color: initial;
+  }
+
+  .work-section {
+    width: 390px;
+    height: 200vh;
+  }
+
+  .contact-section {
+    width: 390px;
+    height: 150vh;
+  }
+  /* =========================== COMPONENTE NAVBAR =========================== */
+
+  /* componente switch per dark mode */
+  .switch {
+    top: 20px;
+  }
+
+  /* levo il menu principale */
+  .menu {
+    display: none;
+  }
+
+  /* aggiungo l'hamburger */
+  .nav-hamburger {
+    display: block;
+  }
+
+  /* aggiungo gli items per l'hamburger  */
+  .menu-items {
+    display: none;
+  }
+
+  /*-------------------HAMBURGER MENU----------------------*/
+  .nav-hamburger {
+    /* margin: 0; */
+    width: 3em;
+    height: 1.5em;
+    position: fixed;
+    z-index: 100;
+    top: 3%;
+    left: 5%;
+    transform: rotate(0deg); /*rotazione a 0 cosi parte dalla rotazione giusta*/
+    transition: all 0.35s cubic-bezier(0.215, 0.61, 0.355, 1);
+    cursor: pointer;
+    /* test */
+  }
+  /* stilizzare lo span */
+  .nav-hamburger span {
+    left: 0;
+    width: 100%;
+    height: 4px;
+    display: block;
+    position: absolute;
+    background: rgb(0, 255, 255);
+    border-radius: 10px;
+    transition: all 0.35s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  /* utilizzo nth-chil per prendere gli elementi figli */
+  .nav-hamburger span:nth-child(1) {
+    top: 0;
+    width: 100%;
+  }
+  .nav-hamburger span:nth-child(2),
+  .nav-hamburger span:nth-child(3) {
+    top: 10px;
+    width: 100%;
+  }
+  .nav-hamburger span:nth-child(4) {
+    top: 20px;
+    width: 100%;
+  }
+  /*animazione nav hamburger  */
+  .open {
+    transform: rotate(180deg); /*rotazione a 180*/
+  }
+  /* animo gli span  */
+  .open span:nth-child(1) {
+    top: 2em;
+    width: 0;
+  }
+  .open span:nth-child(2) {
+    width: 100%;
+    transform: rotate(45deg);
+  }
+  .open span:nth-child(3) {
+    width: 100%;
+    transform: rotate(-45deg);
+  }
+  .open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }
+
+  .container-link-hamburger {
+    width: 100%;
+    height: 100vh;
+    /* background: #077a97a8; */
+    background-image: linear-gradient(
+      to right bottom,
+      #2c73d2,
+      #4b6ed0,
+      #6169cd,
+      #7464c8,
+      #845ec2
+    );
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .container-link-hamburger a {
+    text-decoration: none;
+  }
+
+  .container-link-hamburger h1 {
+    font-size: 70px;
+    color: aqua;
+  }
+
+  .container-link-hamburger i {
+    font-size: 55px;
+  }
+  /* =========================== COMPONENTE HOME =========================== */
+  .layout-home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    gap: 0;
+  }
+
+  /* h1 del nome */
+  .nome {
+    padding-left: 10px;
+    font-size: 50px;
+    line-height: 20px;
+  }
+
+  /* div che racchiude la descrizione nel componente home */
+  .descrizione-home {
+    padding: 20px;
+  }
+
+  /* intro ha come figli l'h1 e la descrizione sottostante */
+  .intro {
+    padding: 15px;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  /* button del download cv */
+  .dc {
+    padding: 10px 100px;
+  }
+
+  .descrizione-home {
+    font-size: 20px;
+  }
+
+  /* div trattato come immagine */
+  .io {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* contenitore dei link github e linkedin */
+  .link {
+    padding-top: 15px;
+    width: 100%;
+    margin-top: 15px;
+    padding-left: 35%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* icone di github e linkedin dentro il div .link */
+  .uil-github-alt,
+  .uil-linkedin {
+    font-size: 60px;
+  }
+
+  /* =========================== COMPONENTE ABOUT-ME =========================== */
+
+  /* div che contiene l'h1 e l'h4 a inizio pagina */
+  .about-container {
+    width: 100%;
+    display: initial;
+    /* margin-top: initial ; */
+    text-align: center;
+    position: relative;
+    top: 30px;
+  }
+
+  .presentazione {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-scritta {
+    margin-top: 50px;
+    line-height: 10px;
+    padding: 42px;
+    font-size: 60px;
+  }
+
+  .dev {
+    font-size: 25px;
+    line-height: 20px;
+  }
+
+  /* span nella "D" di Developer */
+  .d {
+    font-size: 35px;
+  }
+
+  .contenuto-about {
+    width: 300px;
+    height: 220px;
+    display: none;
+  }
+
+  .scritte {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 150px;
+    line-height: 30px;
+  }
+
+  .testo {
+    font-size: 22px;
+  }
+
+  .sotto-about {
+    margin-top: 30px;
+  }
+
+  .container-abilita {
+    flex-direction: column;
+    margin-top: 120px;
+  }
+
+  .frontend,
+  .backend {
+    width: 430px;
+    height: initial;
+    height: 200px;
+    padding: 0px;
+  }
+
+  .abilita-back,
+  .abilita-front {
+    font-size: 25px;
+  }
+
+  .container-box {
+    justify-content: space-evenly;
+    gap: 0px;
+  }
+
+  .frontend {
+    width: 377px;
+    position: relative;
+    right: 33px;
+    margin-bottom: 20px;
+  }
+
+  .backend {
+    width: 377px;
+    margin-left: 86px;
+  }
+
+  /* =========================== COMPONENTE SERVICE =========================== */
+
+  .service-scritta {
+    margin-top: 10px;
+    font-size: 60px;
+  }
+
+  .service-paragrafo {
+    font-size: 25px;
+  }
+
+  /* racchiude il titolo service e il paragrafo */
+
+  .titolo-service {
+    margin-top: 101px;
+    font-size: inherit;
+    font-size: 30px;
+  }
+
+  .box-card-service {
+    flex-direction: column;
+    padding: 3px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+  }
+
+  /* immagini trattate come div */
+  .box-immagine1,
+  .box-immagine2,
+  .box-immagine3 {
+    width: 390px;
+    height: 300px;
+  }
+
+  .card-paragrafo {
+    width: 370px;
+    padding: initial;
+    margin-left: 20px;
+  }
+
+  .testo-dentro-card {
+    font-size: 20px;
+  }
+
+  .container-service {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* =========================== COMPONENTE CONTACT =========================== */
+
+  .contact {
+    margin-top: 200px;
+    flex-direction: column;
+  }
+
+  .testo-contact {
+    font-size: 70px;
+    padding: 10px;
+  }
+
+  .item h2,
+  span {
+    padding-left: 10px;
+  }
+}

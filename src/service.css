@@ -1,0 +1,113 @@
+/* =============== COMPONENTE SERVICE =============== */
+.container-service {
+  display: flex;
+  flex-direction: column;
+}
+
+/* div che contiene l'h1 del titolo service */
+.titolo-service {
+  text-align: center;
+}
+
+.service-scritta {
+  padding: 0;
+  margin-top: 0;
+  font-size: 120px;
+  color: aqua;
+}
+
+.service-paragrafo {
+  font-size: 40px;
+  color: lightgray;
+}
+
+.service-paragrafo i {
+  color: aqua;
+  font-size: 50px;
+}
+
+/* box con dentro le cards */
+.box-card-service {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* card  */
+.card1,
+.card2,
+.card3 {
+  width: 600px;
+  height: 600px;
+  border: 1px solid aqua;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px aqua;
+  transition: 200ms all ease-in-out;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover {
+  transform: translateY(-10px);
+}
+.card-paragrafo {
+  width: 600px;
+  margin-top: 10px;
+  height: 200px;
+  text-align: center;
+  padding: 10px;
+}
+
+.testo-dentro-card {
+  color: lightgray;
+  font-size: 25px;
+}
+
+.box-immagine1,
+.box-immagine2,
+.box-immagine3 {
+  border: 3px solid aqua;
+  width: 560px;
+  margin-top: 20px;
+  height: 360px;
+  border-radius: 10px;
+  margin-left: 18px;
+}
+
+.box-immagine1 {
+  background-image: url(./fypt-img.png);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+.box-immagine2 {
+  background-image: url(./gestionale-dipendenti-img.png);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+.box-immagine3 {
+  background-image: url(./magazzino.png);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.git-cards {
+  text-decoration: none;
+  color: lightseagreen;
+  font-size: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.git-cards:hover {
+  /* transform: scale(1.5); */
+  color: aqua;
+}
+
+.card-paragrafo a {
+  color: aqua;
+  text-decoration: none;
+}

@@ -1,0 +1,180 @@
+/* ============ DARK-MODE ============== */
+.dark-mode body{
+    background-image: linear-gradient(to right top, #000000, #0c0c0c, #151515, #1c1b1b, #232222);
+  }
+.dark-mode html{
+    background-image: linear-gradient(to right top, #000000, #0c0c0c, #151515, #1c1b1b, #232222);
+  }
+.dark-mode section{
+    background-image: linear-gradient(to right top, #000000, #0c0c0c, #151515, #1c1b1b, #232222);
+  }
+  
+  .dark-mode{
+    
+    /* HAMBURGER MENU E IL SUO INTERNO */
+  
+    .nav-hamburger span{
+      background: red;
+    }
+  
+    .container-link-hamburger{
+      background-image: linear-gradient(to right bottom, #000000, #050404, #090808, #0d0c0c, #110f0f);
+    }
+  
+    .container-link-hamburger h1{
+      color: #b81818;
+    }
+  
+    
+    .menu ul li a{
+     color: #b81818
+  
+    }
+  
+  .uil{
+    color:#b81818
+  }
+  
+  .nome{
+    color:#b81818
+  }
+  
+  /* colore testo intro nella home */
+  .intro{
+    color:#ffffff
+  
+  }
+  
+  /* download cv */
+  .dc{
+    background-color:#bb1414bb;
+    color: white
+  }
+  
+  .uil-download-alt{
+    color: white
+  }
+  
+  /* dopo il click del download cv */
+  .dc:hover,
+  .dc:active {
+    background-color: rgb(255, 255, 255); /* Cambia il colore al passaggio del mouse o al click */
+    transform: scale(1.1);
+    color: #b81818;
+  }
+  
+  .io{
+    box-shadow: inset 0 0 0 2px #b81818;
+  }
+  
+  .card1,
+  .card2,
+  .card3{
+    border: 1px solid red;
+    box-shadow: 0px 0px 5px red ;
+   
+  }
+  
+  /* ============== ABOUT ME ============  */
+  .about-scritta{
+    color: #b81818
+  }
+  
+  .colore-livello-front,
+  .colore-livello-back{
+    color: #b81818;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .frontend,
+  .backend{
+    border: 1px solid #b81818;
+    width: 600px;
+    height: 250px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  /* ============== WORK ============  */
+  
+  .service-scritta{
+    color: #b81818;
+  }
+  
+  .service-paragrafo i {
+    color: #b81818;
+    font-size: 50px;
+  }
+  
+  .git-cards{
+    color: red
+  }
+  
+  .git-cards:hover{
+    color: red
+  }
+   
+  .card-paragrafo a{
+    color: red;
+    text-decoration: none;
+  }
+  
+  .box-immagine1,
+  .box-immagine2,
+  .box-immagine3{
+    border:2px solid red;
+    color: red
+  }
+  
+  /* ============== CONTACT ============  */
+  
+  .testo-contact{
+    color: red
+  }
+  input,
+  textarea{
+    border: 1px solid rgb(255, 255, 255);  
+  }
+  
+  input::placeholder{
+    color: rgb(255, 0, 0);
+  }
+  input[type="text"],
+  input[type="email"]{
+    color: lightgrey; /* Cambia il colore del testo digitato solo per input di tipo testo */
+    font-family: "poppins", sans-serif;
+  }
+  
+  textarea::placeholder{
+    font-size: 17px;
+    color: rgb(255, 0, 0);
+    font-family: "poppins", sans-serif;
+  }
+  
+  
+  
+  
+  }
+  
+  .dark-mode
+  .frontend {
+      border: 1px solid #b81818;
+      width: 390px;
+      height: 250px;
+      padding: 6px;
+      
+  }
+  
+  .dark-mode
+  .backend {
+      border: 1px solid #b81818;
+      width: 390px;
+      height: 250px;
+      padding: 13px;
+      
+  }
+  
+  
+  
+  /* FINE DARK MODE */
